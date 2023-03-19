@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28667" started-at="2023-02-10T12:14:06Z" finished-at="2023-02-10T12:14:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28667" started-at="2023-02-10T12:14:06Z" finished-at="2023-02-10T12:14:35Z">
+      <class name="com.jenkins.integration.CnnFacebook">
+        <test-method status="PASS" signature="cnn()[pri:0, instance:com.jenkins.integration.CnnFacebook@5383967b]" name="cnn" duration-ms="8162" started-at="2023-02-10T17:44:24Z" finished-at="2023-02-10T17:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cnn -->
+        <test-method status="PASS" signature="facebook()[pri:0, instance:com.jenkins.integration.CnnFacebook@5383967b]" name="facebook" duration-ms="1211" started-at="2023-02-10T17:44:33Z" finished-at="2023-02-10T17:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method status="PASS" signature="quitmethod()[pri:0, instance:com.jenkins.integration.CnnFacebook@5383967b]" name="quitmethod" is-config="true" duration-ms="822" started-at="2023-02-10T17:44:34Z" finished-at="2023-02-10T17:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitmethod -->
+      </class> <!-- com.jenkins.integration.CnnFacebook -->
+      <class name="com.jenkins.integration.OpenGoogleYahoo">
+        <test-method status="PASS" signature="pub()[pri:0, instance:com.jenkins.integration.OpenGoogleYahoo@4fe3c938]" name="pub" is-config="true" duration-ms="3517" started-at="2023-02-10T17:44:06Z" finished-at="2023-02-10T17:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pub -->
+        <test-method status="PASS" signature="google()[pri:0, instance:com.jenkins.integration.OpenGoogleYahoo@4fe3c938]" name="google" duration-ms="892" started-at="2023-02-10T17:44:10Z" finished-at="2023-02-10T17:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method status="PASS" signature="yahoo()[pri:0, instance:com.jenkins.integration.OpenGoogleYahoo@4fe3c938]" name="yahoo" duration-ms="14012" started-at="2023-02-10T17:44:10Z" finished-at="2023-02-10T17:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahoo -->
+      </class> <!-- com.jenkins.integration.OpenGoogleYahoo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
