@@ -27,6 +27,7 @@ public class CnnFacebook extends DriverObject {
 		driver.manage().window().maximize();
 		System.out.println("facebook opened");
 		//driver.quit();
+		//new line
 	}
 	
 	@AfterTest
